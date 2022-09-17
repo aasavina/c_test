@@ -1,0 +1,13 @@
+﻿int a =1;
+int b = 3;
+int c =5;
+int d = 7;
+int i =4;
+int max =a;
+if (a>max) max=a;
+if (b>max) max=b;
+if (c>max) max=c;
+if (d>max) max=d;
+if (i>max) max=i;
+Console.Write("max=");
+Console.Write(max);
