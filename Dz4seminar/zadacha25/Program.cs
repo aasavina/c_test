@@ -6,7 +6,12 @@
 
 double pow(int digitA, int digitB)
 {
-    double result=Math.Pow(digitA,digitB);
+    int result=1;
+    for(int i=0; i <digitB;i++)
+    {
+       result=result * digitA;
+    }
+    //double result=Math.Pow(digitA,digitB);
     return result;  
 }
 Console.Write("Введите число");
