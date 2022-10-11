@@ -24,7 +24,7 @@ int[,] array =
                  avg= array[j,i]+avg;
                 } 
             avg=avg/(array.GetLength(0));
-            Console.Write(avg);
+            Console.Write(Math. Round(avg,1));
             if (i<array.GetLength(1)-1)
             {
                 Console.Write("; ");
